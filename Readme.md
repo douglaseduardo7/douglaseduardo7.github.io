@@ -2,7 +2,7 @@
 
 Site de portfólio pessoal desenvolvido do zero com HTML, CSS, e JavaScript puro.
 
-Acesse: https://douglaseduardo7.github.oi/DouglasEduardo.github.oi
+Acesse: https://douglaseduardo7.github.io/DouglasEduardo.github.io
 
 
 
