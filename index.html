@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio | Desenvolvedor</title>
+</head>
+<body>
+
+    <header class="topbar">
+        <div class="container topbar-content">
+            <a class="brand" href="#home">Douglas Eduardo</a>
+            <button class="nav-toggle" aria-label="Abrir menu" id="navToggle">Menu</button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow">Desenvolvedor Full-Stack em formação</span>
+                    <h1>Construindo aplicações web modernas com .nNET, Oracle e javaScript.</h1>
+                    <p>Estudo e desenvolvo com ASP.NET Core, c#, Oracle SQL e javaScript. Tenho foco em código limpo, boas práticas e entrego projetos reais 
+                        incluindo sistemas cud com integraçoes direta ao banco de dados..</p>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#projetos">Ver Projetos</a>
+                        <a class="btn btn-secondary" href="#contato">Vamos Conversar</a>
+                    </div>
+                    <div class="skill-pill-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>.NET</span>
+                        <span>MySQL</span>
+                        <span>Oracle</span>
+                        <span>Git</span>
+
+
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <div class="hero-card-visual">
+                        <img src="img/profile.jpg" alt="Foto profissional" loading="lazy">
+                    </div>
+                    <div class="hero-card-inner">
+                        <p>Olá! Eu sou <strong>Douglas Eduardo</strong>, um desenvolvedor em transição para o mercado. Tenho experiência prática cpm asp.net core e oracle sql,
+                             e estou em busca da primeira oportunidade para contribuir em equipes que valorizam quanlidade e aprendizado contínuo. </p>
+                        <ul>
+                            <li>Front-end com HTML, CSS e JavaScript</li>
+                            <li>Back-end com C# e.NET</li>
+                            <li>Bancos de dados Oracle e MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="sobre">
+            <div class="container section-grid">
+                <div class="section-text">
+                    <span class="section-tag">Sobre</span>
+                    <h2>Profissional em transição para dev,com prática real em desenvolvimento web.</h2>
+                    <p>Estou construindo minha carreira como desenvolvedor full-stack com foco em projetos reais. Tenho experiência prática com AS.NET Core, 
+                        Oracle SQL e JavaScript, Incluindo sistemas CRUD complesto com integração a banco de dados. Uso Git para versionamento e tenho compromisso com código limpo e bem estruturado..</p>
+                    <div class="stats-grid">
+                        <div>
+                            <strong>1+</strong>
+                            <span>Ano de estudo intensivo</span>
+                        </div>
+                        <div>
+                            <strong>5+</strong>
+                            <span>Projetos concluídos</span>
+                        </div>
+                        <div>
+                            <strong>100%</strong>
+                            <span>Dedicação e evolução</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-card">
+                    <h3>Tech Stack</h3>
+                    <ul>
+                        <li>HTML5 / CSS3 / JavaScript</li>
+                        <li>C# e ASP.NET Core (.net 8)</li>
+                        <li>MySQL / SQL Server</li>
+                        <li>Git / GitHub</li>
+                        <li>Design responsivo</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="projetos">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Projetos</span>
+                    <h2>Trabalhos recentes e estudos de caso</h2>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <span class="project-badge">Web App</span>
+                        <h3>Dashboard Corporativo</h3>
+                        <p>Interface administrativa para gestão de vendas e clientes usando ASP.NET Core e MySQL.</p>
+                        <p class="project-meta">C# • SQL • UI Clean</p>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-badge">Landing Page</span>
+                        <h3>Portfólio Pessoal</h3>
+                        <p>Site responsivo desencolvido do zero com foco em apresentaçãp profissional e experiência do usúario.inclui navegação pro âncoras,
+                             layout adaptável e design moderno em tema escuro.</p>
+                        <p class="project-meta">HTML • CSS • JavaScript</p>
+                    </article>
+                    <article class="project-card">
+                        <span class="project-badge">Integração</span>
+                        <h3>Sistema de Agendamento</h3>
+                        <p>Aplicação com cadastro, autenticação e gerenciamento de dados em banco relacional.</p>
+                        <p class="project-meta">.NET • API • MySQL</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contato">
+            <div class="container contact-grid">
+                <div>
+                    <span class="section-tag">Contato</span>
+                    <h2>Vamos transformar sua ideia em código.</h2>
+                    <p>Se precisar de um desenvolvedor para web, aplicações ou automações, envie uma mensagem e eu retornarei o mais rápido possível.</p>
+                    <div class="contact-info">
+                        <div>
+                            <strong>Email</strong>
+                          <p>douglaseduardog7@gmail.com</p>
+                        </div>
+                        <div>
+                            <strong>GitHub</strong>
+                            <p><a href="https://github.com/douglaseduardo7" target="_blank" rel="noopener noreferrer">GitHub.com/in/Douglas</a></p>
+                        </div>
+                        <div>
+                            <strong>LinkedIn</strong>
+                            <p><a href="https://www.linkedin.com/in/douglas-eduardo-126a51138/" target="_blank" rel="noopener noreferrer">linkedin.com/in/Douglas</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© 2026 Seu Nome. Desenvolvedor Web &amp; .NET.</p>
+            <p>Feito com HTML, CSS e JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
