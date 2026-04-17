@@ -34,7 +34,7 @@ JavaScript
 
 2\) Clone o repositório
 
-3\) Git clone https://github.com/douglaseduardo7/DouglasEduardo.github.oi.git
+3\) Git clone https://github.com/douglaseduardo7/DouglasEduardo.github.io.git
 
 4\) Abra o index.html no navegador
 
